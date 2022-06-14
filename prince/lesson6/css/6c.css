@@ -1,0 +1,26 @@
+/* This stylesheet of 6c.html */
+p{
+    font-family: arial;
+    margin: 10px auto;
+}
+.price{
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+
+.currency{
+    font-size: 15px;
+    color: rgb(108,117, 125);
+}
+
+.status{
+    color: green;
+}
+
+.last-status{
+    color:rgb(108,117, 125);
+}
+
+.dec-point{
+    color: red;
+}
