@@ -39,6 +39,23 @@
         color: white;
         padding: 10px 16px 10px 16px;
         border: none;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+      }
+      .shadow:active {
+        box-shadow: none;
+      }
+      .btnCount {
+        background-color: green;
+        color: white;
+        padding: 10px 16px 10px 16px;
+        border: none;
+        margin-right: 10px;
+      }
+      .btnCount:hover {
+        margin-left: 10px;
+        margin-right: 5px;
+        padding-left: 32px;
+        padding-right: 32px;
       }
     </style>
   </head>
@@ -58,5 +75,12 @@
     <hr />
     <hr />
     <button class="shadow">Shadow</button>
+
+    <hr />
+    <hr />
+
+    <button class="btnCount">One</button>
+    <button class="btnCount">Two</button>
+    <button class="btnCount">Three</button>
   </body>
 </html>

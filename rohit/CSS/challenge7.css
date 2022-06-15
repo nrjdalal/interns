@@ -1,0 +1,47 @@
+.labeled {
+  font-size: 16px;
+}
+.email-box {
+  height: 35px;
+  width: 250px;
+}
+.tc {
+  margin-top: 4px;
+  color: rgb(163, 152, 137);
+}
+.join-btn {
+  height: 40px;
+  width: 350px;
+  border-radius: 20px;
+  background-color: rgb(46, 46, 236);
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+.profile {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+  border-radius: 50%;
+}
+.message {
+  height: 35px;
+  width: 300px;
+  vertical-align: top;
+  margin-left: 5px;
+  border: 0.5px solid;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.tweet {
+  height: 40px;
+  width: 75px;
+  vertical-align: top;
+  margin-left: 5px;
+  background-color: rgb(27, 27, 216);
+  color: white;
+  border: none;
+  border-radius: 20px;
+}

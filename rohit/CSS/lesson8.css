@@ -1,0 +1,26 @@
+.detail-box {
+  height: 25px;
+  width: 115px;
+  display: block;
+  margin-bottom: 8px;
+}
+.second-part {
+  display: inline-block;
+  margin-top: 5px;
+  width: 200px;
+  vertical-align: middle;
+}
+.google-logo {
+  height: 70px;
+  width: 200px;
+  margin-left: 100px;
+}
+.search-box {
+  display: block;
+  height: 30px;
+  width: 450px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.4);
+}

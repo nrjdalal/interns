@@ -1,0 +1,64 @@
+.Name {
+  height: 35px;
+  border-radius: 8px;
+  border: 1px solid rgb(109, 100, 100);
+  padding-left: 8px;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 5px 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.Email {
+  display: block;
+  height: 35px;
+  width: 343px;
+  border-radius: 8px;
+  border: 1px solid rgb(109, 100, 100);
+  padding-left: 8px;
+  margin-bottom: 10px;
+  border: none;
+  box-shadow: 5px 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.sign-up-btn {
+  height: 40px;
+  width: 350px;
+  border-radius: 8px;
+  border: 1px solid rgb(109, 100, 100);
+  padding-left: 8px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+.req {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 12px;
+}
+.pickup,
+.destination {
+  background-color: aliceblue;
+  border: none;
+  height: 35px;
+  display: block;
+  margin-top: 0px;
+  width: 400px;
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+.now {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.schedule {
+  margin-top: 20px;
+  height: 40px;
+  width: 150px;
+  margin-left: 10px;
+  border: none;
+  background-color: rgb(211, 220, 227);
+}
