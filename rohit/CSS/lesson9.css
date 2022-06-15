@@ -1,0 +1,85 @@
+.square {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+.review {
+  height: 80px;
+  width: 250px;
+  border: 1px solid rgb(132, 126, 126);
+}
+.msg {
+  display: block;
+  margin-top: 5px;
+  margin-left: 9px;
+}
+.ack {
+  margin-top: 10px;
+  margin-left: 9px;
+}
+.yt-music {
+  height: 100px;
+  width: 350px;
+  background-color: black;
+  color: white;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+.install {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  margin-left: 4px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.yt-msg {
+  color: rgb(163, 138, 138);
+  font-size: 16px;
+}
+.profile {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+  border-radius: 50%;
+}
+.message {
+  height: 35px;
+  width: 300px;
+  vertical-align: top;
+  margin-left: 5px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.tweet {
+  height: 40px;
+  width: 75px;
+  vertical-align: top;
+  margin-left: 5px;
+  background-color: rgb(27, 27, 216);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.twit-bar {
+  height: 50px;
+  width: 470px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+}

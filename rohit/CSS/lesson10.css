@@ -1,0 +1,92 @@
+.pic {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: none;
+}
+.other-cats {
+  background-color: rgb(243, 243, 243);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.profile-info {
+  display: inline-block;
+  vertical-align: top;
+}
+.name,
+.title,
+.fame {
+  margin-top: 10px;
+  margin-left: 12px;
+  display: block;
+  margin-bottom: 2px;
+}
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+.title,
+.fame {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(38, 73, 73);
+}
+
+.profile-pic {
+  display: inline-block;
+}
+p {
+  display: inline-block;
+}
+
+.block-btn {
+  display: inline-block;
+  vertical-align: top;
+}
+.follow-btn {
+  margin-top: 40px;
+  margin-left: 150px;
+  height: 35px;
+  width: 75px;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.video-thumbnail {
+  display: inline-block;
+}
+.video-info {
+  display: inline-block;
+  vertical-align: top;
+}
+.video-title {
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  font-size: 18px;
+  width: 300px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.video-owner {
+  display: block;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+.view-info {
+  display: block;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 8px;
+}
+.video-list {
+  background-color: rgb(234, 241, 239);
+  width: 527px;
+  padding-top: 8px;
+  padding-left: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+}

@@ -1,0 +1,36 @@
+.cat-img {
+  border-radius: 10px;
+}
+.cat-square {
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+  object-fit: cover;
+  object-position: center;
+}
+.cat-round {
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.search-bar {
+  border: 1px solid rgb(120, 118, 115);
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: medium;
+  border-radius: 5px;
+}
+.google-search {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding-left: 18px;
+  height: 35px;
+  width: 350px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}

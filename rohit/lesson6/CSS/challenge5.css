@@ -1,0 +1,62 @@
+.first-line {
+  font-family: arial;
+  color: red;
+  margin-left: 150px;
+}
+.system-info {
+  font-family: arial;
+  margin-left: 110px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.pros {
+  font-family: arial;
+  margin-left: 5px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.price {
+  font-family: arial;
+  margin-left: 130px;
+}
+.buyNow {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 17px;
+  height: 35px;
+  width: 55px;
+  margin-left: 140px;
+}
+.money {
+  font-family: arial;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.money-type {
+  font-family: arial;
+  color: rgb(157, 164, 164);
+  font-size: 14px;
+}
+.profit {
+  font-family: arial;
+  color: green;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.money2 {
+  margin-top: 5px;
+  color: rgb(99, 113, 125);
+}
+.loss {
+  color: red;
+}
+.freecodecamp {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topline {
+  margin-bottom: 4px;
+}
+.bottom-line {
+  margin-top: 18px;
+}
