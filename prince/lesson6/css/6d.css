@@ -1,17 +1,17 @@
-p{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.title{
-    font-weight: bold;
-    font-size: 35px;
-    margin-bottom: 20px;
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
 
-.desc{
-    font-size: 20px;
+.desc {
+  font-size: 20px;
 }
-span{
-    text-decoration: underline;
+span {
+  text-decoration: underline;
 }
