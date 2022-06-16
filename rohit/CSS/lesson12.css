@@ -1,6 +1,7 @@
 .main-flex{
     display: flex;
     flex-direction: row;
+    margin-bottom: 50px;
 }
 .first-flex{
     background-color: lightpink;
