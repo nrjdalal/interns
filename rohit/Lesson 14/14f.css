@@ -1,0 +1,69 @@
+body{
+    height: 3000px;
+}
+.sidebar1-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 65px;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left: 0;
+}
+.user1-pic,.user2-pic,.user3-pic{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.sidebar2-container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 65px;
+    width: 150px;
+    background-color: rgb(84, 83, 83);
+
+}
+.info-bar{
+    display: flex;
+    height: 30px;
+    margin-top: 10px;
+}
+.info{
+    display: flex;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.plus-sign{
+    display: flex;
+    color: rgb(184, 178, 178);
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.hastag{
+    display: flex;
+    margin-left: 15px;
+    color: rgb(160, 168, 174);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.hash,.hash-msg{
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
