@@ -1,0 +1,24 @@
+.social-media-img {
+  width: 40px;
+  height: 40px;
+  object-position: center;
+  border-radius: 200px;
+  vertical-align: middle;
+}
+
+.txt-box {
+  vertical-align: middle;
+  border: none;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.tweet-button {
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(71, 175, 240);
+  border-radius: 15px;
+  padding-left: 20px;
+  padding: 7px 15px;
+}

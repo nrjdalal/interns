@@ -1,0 +1,31 @@
+div {
+  width: 350px;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.social-media-img {
+  width: 40px;
+  height: 40px;
+  object-position: center;
+  border-radius: 200px;
+  vertical-align: middle;
+}
+
+.txt-box {
+  vertical-align: middle;
+  border: none;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 45px;
+}
+
+.tweet-button {
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(71, 175, 240);
+  border-radius: 15px;
+  padding: 7px 15px;
+}

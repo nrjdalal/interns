@@ -1,0 +1,29 @@
+div {
+  width: 500px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.input-txt {
+  border: none;
+  padding: 10px 250px 10px 10px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+::placeholder {
+  width: 200px;
+}
+img {
+  /* margin-left: 100px; */
+  margin-bottom: 5px;
+  width: 200px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  align-items: center;
+  text-align: center;
+}
