@@ -1,0 +1,28 @@
+.title {
+  font-size: 30px;
+  /* font-weight: bold; */
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.txt-field {
+  font-family: arial;
+  display: block;
+  padding: 8px 100px 8px 10px;
+  margin-bottom: 8px;
+  background-color: rgb(234, 238, 240);
+  border: none;
+}
+button {
+  padding: 8px 15px;
+  margin: 20px 10px auto auto;
+  border: none;
+}
+.req-btn {
+  background-color: black;
+  color: white;
+}
+
+.schedule-btn {
+  background-color: rgb(234, 238, 240);
+}
