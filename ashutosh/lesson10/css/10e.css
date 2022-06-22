@@ -1,0 +1,35 @@
+.hor-row {
+  display: inline-block;
+}
+
+img {
+  width: 130px;
+  vertical-align: top;
+}
+.dp {
+  width: 20px;
+  height: 20px;
+  border-radius: 200px;
+  margin-left: 5px;
+}
+p {
+  margin: 5px;
+}
+.name {
+  font-weight: bold;
+}
+
+.mutual {
+  color: rgb(104, 106, 108);
+  font-size: 15px;
+}
+
+.add-friend-btn {
+  background-color: rgb(17, 118, 219);
+  color: white;
+  border: none;
+  margin-left: 5px;
+  padding: 8px 10px 8px 10px;
+  border-radius: 3px;
+  font-size: smaller;
+}
