@@ -1,30 +1,73 @@
+body{
+    height:1000px;
+}
 .header{
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 48px;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 46px;
     width: auto;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
     left: 0;
+    z-index: 999;
 }
 .header-list{
     display: flex;
     flex-direction: row;
+    height: 48px;
     margin-left: 150px;
     margin-right: 150px;
     align-items: center;
+    vertical-align: middle;
     justify-content: space-between;
 }
 .header-list a{
-    color: white;
+    color: rgb(219, 216, 216);
     text-decoration: none;
     cursor: pointer;
-    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;  
+    transition: color 0.15s;
+}
+.header-list a:hover{
+    color: white 
 }
 .search-icon, .cart{
-    height: 20px;
-    width: 20px;
+    height: 18px;
     border: none;
-    border-radius: 30%;
+    border-radius: 10px;
+    opacity: 0.6;  
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.search-icon:hover,.cart:hover{
+   opacity: 1;
+}
+
+.offer{
+    display: grid;
+    position: absolute;
+    top: 46px;
+    right: 0px;
+    left: 0px;
+    background-color: rgb(221, 218, 218);
+    height: 46px;
+    width: auto;
+    align-items: center;
+}
+.offer-msg-box{
+    margin-left: 300px;
+}
+.offer-msg{
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.learn-more-about-offer{
+    text-decoration: none;
+    font-size: 14px;
+
 }
