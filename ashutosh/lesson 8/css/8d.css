@@ -1,0 +1,36 @@
+input {
+  margin: 5px 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+.email {
+  display: block;
+  padding-right: 187px;
+}
+
+button {
+  padding: 10px 20px 10px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  border-style: solid;
+  align-items: top;
+  display: block;
+}
+.signUP-btn {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  transition: background-color 0.15;
+  padding-left: 157px;
+  padding-right: 157px;
+}
+
+.signUP-btn:hover {
+  background-color: rgb(3, 68, 133);
+  vertical-align: top;
+}

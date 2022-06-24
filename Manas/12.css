@@ -1,0 +1,47 @@
+.main-flex{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.first-flex{
+    background-color: lightpink;
+    width: 200px;
+}
+.second-flex{
+    background-color: lightblue;
+    width: 75px;
+}
+
+/*  CSS for Second Design */
+.first-flex1{
+    background-color: lightpink;
+    width: 50px;
+}
+.second-flex1{
+    background-color: lightblue;
+    flex: 1;
+}
+.third-flex{
+    background-color: black;
+    color: wheat;
+    width: 75px;
+}
+
+/* CSS for Third design */
+.f-box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.f1{
+    background-color: lightpink;
+    
+
+}
+.f2{
+    background-color: lightpink;
+    
+}
