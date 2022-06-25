@@ -1,0 +1,12 @@
+.grd{
+    display: grid;
+    grid-template-columns: 200px 75px;
+}
+
+.col-1{
+    background-color: rgb(161, 198, 247);
+}
+
+.col-2{
+    background-color: pink;
+}
