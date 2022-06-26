@@ -17,6 +17,7 @@ img{
 .name-tag{
     display: flex;
     column-gap: 10px;
+
 }
 
 .name{
@@ -27,8 +28,11 @@ img{
     color: gray;
 }
 
+.desc{
+    margin-top: 8px;
+}
 .url-preview{
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     
 }
