@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.col-1{
+    background-color: lightpink;
+    width: 100px;
+}
+
+.col-2{
+    background-color: skyblue;
+    width: 200px;
+}
+
+.nest-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.row2{
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
