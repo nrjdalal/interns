@@ -1,0 +1,54 @@
+p{
+    margin: 0px;
+}
+.body{
+    font-family: Arial;
+}
+
+.right-sidebar{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100px;
+    background-color: green;
+    color: white;
+
+}
+
+.cover{ 
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.overlay{
+    width: 500px;
+    flex-direction: row;
+
+}
+
+.modal{
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 24px;
+
+}
+
+.title{
+    font-weight: 600;
+}
+
+.desc{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+

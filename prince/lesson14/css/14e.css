@@ -1,0 +1,42 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    align-items: center;
+}
+
+img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.add-friend{
+    background-color:rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.message{
+    background-color:rgb(206, 206, 206);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+}
