@@ -1,0 +1,13 @@
+.grd{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.col-1{
+    background-color: pink;
+}
+p{
+    margin: 0px;
+}

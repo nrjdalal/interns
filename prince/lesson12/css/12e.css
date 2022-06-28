@@ -1,0 +1,18 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+ 
+.col-1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.col-2{
+    background-color: rgb(62, 102, 223);
+    color: white;
+    text-align: center;
+    border-radius: 14px;
+    padding: 2px 10px;
+}

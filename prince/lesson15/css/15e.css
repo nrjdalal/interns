@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.container{
+    position: relative;
+    display: inline-block;
+}
+
+.off{
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: small;
+    top: 5px;
+    right: 0px;
+}

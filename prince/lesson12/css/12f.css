@@ -1,0 +1,45 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  rgb(121, 82, 179);
+    height: 40px;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+ .left{
+    color: white;
+ }
+
+.mid{
+    flex: 1;
+    text-align: center;
+}
+
+.search{
+    max-width: 500px;
+    padding-right: 200px;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.download-btn {
+    color: white;
+    background-color: rgb(121, 82, 179);
+    border: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    transition: background-color 0.15s;
+  }
+
+  .download-btn:hover {
+    background-color: rgb(107, 69, 164);
+  }
