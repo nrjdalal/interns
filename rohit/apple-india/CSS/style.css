@@ -1,8 +1,16 @@
+@font-face{
+    font-family: monstreat;
+    src:url('../FONTS/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+
+}
+
+
 body{
     height:1000px;
+    overflow-x: hidden;
 }
 .header{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 1);
     height: 46px;
     width: auto;
     position: fixed;
@@ -69,5 +77,85 @@ body{
 .learn-more-about-offer{
     text-decoration: none;
     font-size: 14px;
+
+}
+.system1-main-grid{
+    background-color: black;
+    position: absolute;
+    top: 92px;
+    left: 0px;
+    height: 220px;
+    width: 100%;
+    
+    
+}
+.system1-name-block{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 105px;
+}
+.system1-name{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 53px;
+    letter-spacing: -0.005em;
+    line-height: 1.07143;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.system1-technology{
+   display: block;
+   height: 68px;
+   margin-top: -35px;
+   margin-bottom: 0px;
+}
+.tech-logo{
+    z-index: 100;
+    height: 68px;
+    vertical-align: middle;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.system1-info-price
+{
+    position: relative;
+    top: 0;
+    left: 42%;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.system1-info-price a {
+    margin-right: 40px;
+    color: rgb(95, 195, 234);
+    font-size: 18px;
+    text-decoration: none;
+}
+.link{
+    font-weight:500;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.main-system1-pic{
+    z-index: 1;
+    overflow: visible;
+    height: 100%;
+    width: 100%;
+    object-position:center;
+    padding-top: 0px;
+    padding: 0px;
+}
+.system2-main-grid{
+    position: absolute;
+    top: 650px;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    margin-top: 25px;
 
 }
