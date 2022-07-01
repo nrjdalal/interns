@@ -114,7 +114,6 @@ body{
 .tech-logo{
     z-index: 100;
     height: 68px;
-    vertical-align: middle;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -165,17 +164,17 @@ body{
     margin-top: 17px;
     height: 220px;
 }
-.system2-details{
+/* .system2-details{
 
 }
 .system2-name-block{
 
-}
+} */
 .system2-name{
     font-family: system2;
     font-size: 56px;
 }
-.system2-tech{
+/* .system2-tech{
 
 }
 .system2-avilability{
@@ -183,5 +182,5 @@ body{
 }
 .system2-price-info{
 
-}
+} */
 
