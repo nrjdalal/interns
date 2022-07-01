@@ -1,6 +1,7 @@
 @font-face{
     font-family: monstreat;
     src:url('../FONTS/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+    src:url('../FONTS/Montserrat/Montserrat-VariableFont_wght.ttf');
 
 }
 
@@ -150,12 +151,37 @@ body{
     padding-top: 0px;
     padding: 0px;
 }
+
+@font-face{
+    font-family: system2;
+    src:url('../FONTS/Roboto/Roboto-Bold.ttf')
+}
 .system2-main-grid{
     position: absolute;
     top: 650px;
     left: 0;
     width: 100%;
     background-color: red;
-    margin-top: 25px;
+    margin-top: 17px;
+    height: 220px;
+}
+.system2-details{
 
 }
+.system2-name-block{
+
+}
+.system2-name{
+    font-family: system2;
+    font-size: 56px;
+}
+.system2-tech{
+
+}
+.system2-avilability{
+
+}
+.system2-price-info{
+
+}
+
